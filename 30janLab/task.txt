@@ -1,0 +1,25 @@
+1.. create a stack 
+2   for each character 't' in the input 
+{
+    if('t' is an operand)
+        op t;
+
+    else if('t' is an paranthesis)
+    {
+        pop and output 't' until left paranthesis occur (but not print left and right paranthesis)
+    }
+
+    else // "t" is an operator or left paranthesis
+    pop and output tokens until one of the lower priorty than 't' is encountered of left paranthesis is encountered or 
+    stack is empty;
+}
+
+3.. pop and output all the tokens until the stack is empty;
+
+
+
+
+
+
+// a*(b+c)
+   ttttttt
